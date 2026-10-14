@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Datos de las peliculas de Harry Potter -->
+
+<saga propietario="Irenegmez04">
+
+  <pelicula id="P01">
+    <titulo>Harry Potter y la piedra filosofal</titulo>
+
+    <numero>1</numero>
+
+    <duracion unidad="min">152.0</duracion>
+
+    <destacado/>
+  </pelicula>
+
+
+  <pelicula id="P02">
+    <titulo>Harry Potter y la cámara secreta</titulo>
+
+    <numero>2</numero>
+
+    <duracion unidad="min">161.0</duracion>
+
+    <destacado/>
+  </pelicula>
+
+
+  <pelicula id="P03">
+    <titulo>Harry Potter y el prisionero de Azkaban</titulo>
+
+    <numero>3</numero>
+
+    <duracion unidad="min">142.0</duracion>
+
+    <destacado/>
+  </pelicula>
+
+
+  <pelicula id="P04">
+    <titulo>Harry Potter y el cáliz de fuego</titulo>
+
+    <numero>4</numero>
+
+    <duracion unidad="min">157.0</duracion>
+
+    <destacado/>
+  </pelicula>
+
+
+  <pelicula id="P05">
+    <titulo>Harry Potter y la Orden del Fénix</titulo>
+
+    <numero>5</numero>
+
+    <duracion unidad="min">138.0</duracion>
+
+    <destacado/>
+  </pelicula>
+
+
+  <pelicula id="P06">
+    <titulo>Harry Potter y el misterio del príncipe</titulo>
+
+    <numero>6</numero>
+
+    <duracion unidad="min">153.0</duracion>
+
+    <destacado/>
+  </pelicula>
+
+
+  <pelicula id="P07">
+    <titulo>Harry Potter y las reliquias de la Muerte: Parte 1</titulo>
+
+    <numero>7</numero>
+
+    <duracion unidad="min">146.0</duracion>
+
+    <destacado/>
+  </pelicula>
+
+
+  <pelicula id="P08">
+    <titulo>Harry Potter y las reliquias de la Muerte: Parte 2</titulo>
+
+    <numero>8</numero>
+
+    <duracion unidad="min">130.0</duracion>
+
+    <destacado/>
+  </pelicula>
+
+</saga>
