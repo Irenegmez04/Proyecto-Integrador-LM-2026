@@ -15,7 +15,7 @@ He elegido Harry Potter porque es mi saga favorita desde siempre y me apasiona t
 
 ## Palabra del día
 
-**Palabra:** Contexto
+**Palabra:** Dia
 
 ## ¿Qué he hecho en esta entrega?
 

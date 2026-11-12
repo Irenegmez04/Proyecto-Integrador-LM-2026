@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Harry Potter</title>
+    <meta name="description" content="Contacta conmigo para compartir tus opiniones sobre Harry Potter.">
+    <meta name="keywords" content="Harry Potter, contacto, películas, magia">
+    <meta name="author" content="Irene Gómez García">
+</head>
+
+<body>
+
+    <div>
+
+        <h1>Contacto</h1>
+
+        <p>
+            Si te gusta Harry Potter y quieres compartir tu opinión,
+            puedes rellenar este formulario para ponerte en contacto conmigo.
+        </p>
+
+        <p>
+            Puedes preguntarme sobre las películas, los personajes,
+            los libros o cualquier otro aspecto del mundo mágico.
+        </p>
+
+    </div>
+
+    <hr>
+
+    <div>
+
+        <h2>Envíame tu consulta</h2>
+
+        <form action="#" method="post">
+
+            <fieldset>
+
+                <legend>Tus datos</legend>
+
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre"
+                        placeholder="Escribe tu nombre"
+                        maxlength="40" required autofocus>
+                </p>
+
+                <p>
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos"
+                        placeholder="Escribe tus apellidos"
+                        maxlength="60" required>
+                </p>
+
+                <p>
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" name="correo"
+                        placeholder="ejemplo@gmail.com" required>
+                </p>
+
+                <p>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono"
+                        placeholder="Introduce tu teléfono"
+                        minlength="9" maxlength="15">
+                </p>
+
+                <p>
+                    <label for="fecha">Fecha de nacimiento:</label>
+                    <input type="date" id="fecha" name="fecha">
+                </p>
+
+                <p>
+                    <label for="pais">País de residencia:</label>
+
+                    <select id="pais" name="pais">
+
+                        <option value="espana" selected>España</option>
+                        <option value="portugal">Portugal</option>
+                        <option value="francia">Francia</option>
+                        <option value="otro">Otro país</option>
+
+                    </select>
+                </p>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+
+                <legend>Tu relación con Harry Potter</legend>
+
+                <p>
+                    <label for="conocer">¿Cómo conociste la saga?</label>
+
+                    <select id="conocer" name="conocer">
+
+                        <option value="peliculas" selected>Por las películas</option>
+                        <option value="libros">Por los libros</option>
+                        <option value="familia">Por familiares o amigos</option>
+                        <option value="internet">Por Internet</option>
+
+                    </select>
+                </p>
+
+                <p>
+                    <label for="veces">¿Cuántas veces has visto las películas?</label>
+
+                    <input type="number" id="veces" name="veces"
+                        min="0" max="100">
+                </p>
+
+                <p>
+                    <label for="libro">¿Has leído los libros?</label>
+
+                    <select id="libro" name="libro">
+
+                        <option value="todos">Todos</option>
+                        <option value="algunos">Algunos</option>
+                        <option value="ninguno" selected>Ninguno</option>
+
+                    </select>
+                </p>
+
+                <p>
+                    ¿Qué películas te gustan?
+                </p>
+
+                <p>
+                    <input type="checkbox" id="piedra" name="peliculas" value="piedra">
+                    <label for="piedra">La piedra filosofal</label>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="camara" name="peliculas" value="camara">
+                    <label for="camara">La cámara secreta</label>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="azkaban" name="peliculas" value="azkaban" checked>
+                    <label for="azkaban">El prisionero de Azkaban</label>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="caliz" name="peliculas" value="caliz">
+                    <label for="caliz">El cáliz de fuego</label>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="orden" name="peliculas" value="orden">
+                    <label for="orden">La Orden del Fénix</label>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="principe" name="peliculas" value="principe">
+                    <label for="principe">El misterio del príncipe</label>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="reliquias" name="peliculas" value="reliquias">
+                    <label for="reliquias">Las reliquias de la muerte</label>
+                </p>
+
+                <p>
+                    <label for="personaje">¿Quién es tu personaje favorito?</label>
+
+                    <select id="personaje" name="personaje">
+
+                        <option value="harry" selected>Harry Potter</option>
+                        <option value="hermione">Hermione Granger</option>
+                        <option value="ron">Ron Weasley</option>
+                        <option value="luna">Luna Lovegood</option>
+                        <option value="dumbledore">Albus Dumbledore</option>
+                        <option value="snape">Severus Snape</option>
+                        <option value="draco">Draco Malfoy</option>
+
+                    </select>
+                </p>
+
+                <p>
+                    <label for="villano">¿Cuál es tu villano favorito?</label>
+
+                    <select id="villano" name="villano">
+
+                        <option value="voldemort">Lord Voldemort</option>
+                        <option value="bellatrix">Bellatrix Lestrange</option>
+                        <option value="umbridge">Dolores Umbridge</option>
+                        <option value="malfoy" selected>Lucius Malfoy</option>
+
+                    </select>
+                </p>
+
+                <p>
+                    <label for="criatura">¿Cuál es tu criatura mágica favorita?</label>
+
+                    <select id="criatura" name="criatura">
+
+                        <option value="hipogrifo">Hipogrifo</option>
+                        <option value="dragon">Dragón</option>
+                        <option value="fwooper">Fénix</option>
+                        <option value="elfo" selected>Elfo doméstico</option>
+                        <option value="dementor">Dementor</option>
+
+                    </select>
+                </p>
+
+                <p>
+                    <label for="hechizo">¿Cuál es tu hechizo favorito?</label>
+
+                    <select id="hechizo" name="hechizo">
+
+                        <option value="expelliarmus">Expelliarmus</option>
+                        <option value="expecto">Expecto Patronum</option>
+                        <option value="lumos">Lumos</option>
+                        <option value="wingardium" selected>Wingardium Leviosa</option>
+                        <option value="accio">Accio</option>
+
+                    </select>
+                </p>
+
+                <p>
+                    ¿Cuál es tu casa favorita de Hogwarts?
+                </p>
+
+                <p>
+                    <input type="radio" id="gryffindor" name="casa" value="gryffindor" required>
+                    <label for="gryffindor">Gryffindor</label>
+                </p>
+
+                <p>
+                    <input type="radio" id="slytherin" name="casa" value="slytherin">
+                    <label for="slytherin">Slytherin</label>
+                </p>
+
+                <p>
+                    <input type="radio" id="ravenclaw" name="casa" value="ravenclaw">
+                    <label for="ravenclaw">Ravenclaw</label>
+                </p>
+
+                <p>
+                    <input type="radio" id="hufflepuff" name="casa" value="hufflepuff">
+                    <label for="hufflepuff">Hufflepuff</label>
+                </p>
+
+                <p>
+                    ¿Qué temas del mundo mágico te interesan?
+                </p>
+
+                <p>
+                    <input type="checkbox" id="hechizos" name="intereses" value="hechizos">
+                    <label for="hechizos">Hechizos y magia</label>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="criaturas" name="intereses" value="criaturas">
+                    <label for="criaturas">Criaturas mágicas</label>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="hogwarts" name="intereses" value="hogwarts">
+                    <label for="hogwarts">El castillo de Hogwarts</label>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="quidditch" name="intereses" value="quidditch">
+                    <label for="quidditch">Quidditch</label>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="personajes" name="intereses" value="personajes">
+                    <label for="personajes">Personajes</label>
+                </p>
+
+                <p>
+                    <label for="valoracion">¿Cuánto te gusta Harry Potter?</label>
+
+                    <select id="valoracion" name="valoracion">
+
+                        <option value="poco">Me gusta un poco</option>
+                        <option value="bastante">Me gusta bastante</option>
+                        <option value="mucho" selected>Me encanta</option>
+                        <option value="fan">Soy un gran fan</option>
+
+                    </select>
+                </p>
+
+                <p>
+                    <label for="mensaje">Escribe tu mensaje:</label>
+                </p>
+
+                <p>
+                    <textarea id="mensaje" name="mensaje"
+                        rows="6" cols="45"
+                        placeholder="Escribe aquí tu consulta u opinión..."
+                        minlength="10" maxlength="500"
+                        required></textarea>
+                </p>
+
+            </fieldset>
+
+            <br>
+
+            <div>
+
+                <p>
+                    <input type="checkbox" id="condiciones" name="condiciones" value="acepto" required>
+                    <label for="condiciones">Acepto las condiciones del formulario.</label>
+                </p>
+
+                <input type="submit" value="Enviar formulario">
+                <input type="reset" value="Borrar formulario">
+
+            </div>
+
+        </form>
+
+    </div>
+
+    <hr>
+
+    <footer>
+
+        <p>&copy; 2026 Irene Gómez García. Proyecto web sobre Harry Potter.</p>
+
+    </footer>
+
+</body>
+</html>
