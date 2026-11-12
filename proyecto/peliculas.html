@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -12,9 +11,15 @@
 </head>
 
 <body>
-    <!-- NAV: aquí irá el menú (UD4) -->
-
-    <!-- Presentación de la página -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quiensoy.html">Quién soy</a></li>
+            <li><a href="peliculas.html">Películas</a></li>
+            <li><a href="personajes.html">Personajes</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
 
     <div>
         <h1>Películas de Harry Potter</h1>
@@ -30,7 +35,6 @@
 
     <hr>
 
-    <!-- Información general de las películas -->
     <div>
         <h2>Las ocho películas de Harry Potter</h2>
 
@@ -42,7 +46,6 @@
             Al principio, los protagonistas aprenden a utilizar la magia y se acostumbran a la vida en Hogwarts. Más adelante, tienen que afrontar situaciones cada vez más difíciles y luchar contra las fuerzas de Voldemort.
         </p>
 
-        <!-- Primera película -->
         <div>
             <h3>1. Harry Potter y la piedra filosofal</h3>
 
@@ -55,9 +58,8 @@
             </p>
         </div>
 
-        <img src="img/harry potter y la piedra filosofal.jpg" alt="Harry Potter y la piedra filosofal">
+        <img src="img/harry%20potter%20y%20la%20piedra%20filosofal.jpg" alt="Harry Potter y la piedra filosofal">
 
-        <!-- Segunda película -->
         <div>
             <h3>2. Harry Potter y la cámara secreta</h3>
 
@@ -70,9 +72,8 @@
             </p>
         </div>
 
-        <img src="img/harry potter y la camara secreta.jpg" alt="Harry Potter y la camara secrerta">
+        <img src="img/harry%20potter%20y%20la%20camara%20secreta.jpg" alt="Harry Potter y la cámara secreta">
 
-        <!-- Tercera película -->
         <div>
             <h3>3. Harry Potter y el prisionero de Azkaban</h3>
 
@@ -85,9 +86,8 @@
             </p>
         </div>
 
-        <img src="img/harry potter y el prisionero de azkaban.jpg" alt="Harry Potter y el prisonero de azkaban">
+        <img src="img/harry%20potter%20y%20el%20prisionero%20de%20azkaban.jpg" alt="Harry Potter y el prisionero de Azkaban">
 
-        <!-- Cuarta película -->
         <div>
             <h3>4. Harry Potter y el cáliz de fuego</h3>
 
@@ -100,9 +100,8 @@
             </p>
         </div>
 
-        <img src="img/harry potter y el caliz de fuego.jpg" alt="Harry Potter y el caliz de fuego">
+        <img src="img/harry%20potter%20y%20el%20caliz%20de%20fuego.jpg" alt="Harry Potter y el cáliz de fuego">
 
-        <!-- Quinta película -->
         <div>
             <h3>5. Harry Potter y la Orden del Fénix</h3>
 
@@ -115,9 +114,8 @@
             </p>
         </div>
 
-        <img src="img/harry potter y la orden del fenix.jpg" alt="Harry Potter y la orden del fenix">
+        <img src="img/harry%20potter%20y%20la%20orden%20del%20fenix.jpg" alt="Harry Potter y la Orden del Fénix">
 
-        <!-- Sexta película -->
         <div>
             <h3>6. Harry Potter y el misterio del príncipe</h3>
 
@@ -130,9 +128,8 @@
             </p>
         </div>
 
-        <img src="img/harry potter y el misterio del principe mestizo.jpg" alt="Harry Potter y el misterio del principe mestizo">
+        <img src="img/harry%20potter%20y%20el%20misterio%20del%20principe%20mestizo.jpg" alt="Harry Potter y el misterio del príncipe mestizo">
 
-        <!-- Séptima película -->
         <div>
             <h3>7. Harry Potter y las reliquias de la Muerte: Parte 1</h3>
 
@@ -145,9 +142,8 @@
             </p>
         </div>
 
-        <img src="img/harry potter y las reliquias de la muerte parte 1.jpg" alt="Harry Potter y las reliquias de la muerte parte 1">
+        <img src="img/harry%20potter%20y%20las%20reliquias%20de%20la%20muerte%20parte%201.jpg" alt="Harry Potter y las reliquias de la Muerte: Parte 1">
 
-        <!-- Séptima película, parte 2 -->
         <div>
             <h3>8. Harry Potter y las reliquias de la Muerte: Parte 2</h3>
 
@@ -160,13 +156,12 @@
             </p>
         </div>
 
-        <img src="img/harry potter y las reliquias de la muerte parte 2.jpg" alt="Harry Potter y las reliquias de la muerte parte 2">
+        <img src="img/harry%20potter%20y%20las%20reliquias%20de%20la%20muerte%20parte%202.jpg" alt="Harry Potter y las reliquias de la Muerte: Parte 2">
 
     </div>
 
     <hr>
 
-    <!-- Mi película favorita -->
     <div>
         <h2>Mi película favorita</h2>
 
@@ -181,7 +176,6 @@
 
     <hr>
 
-    <!-- Ficha informativa -->
     <div>
         <h2>Ficha de la saga</h2>
 
@@ -203,7 +197,102 @@ Enemigo principal:    Lord Voldemort
 
     <hr>
 
-    <!-- Valores de las películas -->
+    <div>
+        <h2>Datos de las películas</h2>
+
+        <p>
+            Esta tabla reúne el año de estreno, la duración y el director de cada una de las ocho películas de la saga.
+        </p>
+
+        <!--
+            Tabla: datos de las ocho películas de Harry Potter.
+            Columnas: número, título, año de estreno, duración en minutos y director.
+            El director usa rowspan porque algunos dirigieron varias películas seguidas.
+            El pie usa colspan para mostrar la duración total de la saga.
+        -->
+        <table>
+            <caption>Películas de Harry Potter: estreno, duración y director</caption>
+            <colgroup>
+                <col span="2">
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <thead>
+                <tr>
+                <th scope="col">Nº</th>
+                <th scope="col">Título</th>
+                <th scope="col">Año</th>
+                <th scope="col">Duración (min)</th>
+                <th scope="col">Director</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th scope="row">1</th>
+                <td>Harry Potter y la piedra filosofal</td>
+                <td>2001</td>
+                <td>152</td>
+                <td rowspan="2">Chris Columbus</td>
+                </tr>
+                <tr>
+                <th scope="row">2</th>
+                <td>Harry Potter y la cámara secreta</td>
+                <td>2002</td>
+                <td>161</td>
+                </tr>
+                <tr>
+                <th scope="row">3</th>
+                <td>Harry Potter y el prisionero de Azkaban</td>
+                <td>2004</td>
+                <td>142</td>
+                <td>Alfonso Cuarón</td>
+                </tr>
+                <tr>
+                <th scope="row">4</th>
+                <td>Harry Potter y el cáliz de fuego</td>
+                <td>2005</td>
+                <td>157</td>
+                <td>Mike Newell</td>
+                </tr>
+                <tr>
+                <th scope="row">5</th>
+                <td>Harry Potter y la Orden del Fénix</td>
+                <td>2007</td>
+                <td>138</td>
+                <td rowspan="4">David Yates</td>
+                </tr>
+                <tr>
+                <th scope="row">6</th>
+                <td>Harry Potter y el misterio del príncipe</td>
+                <td>2009</td>
+                <td>153</td>
+                </tr>
+                <tr>
+                <th scope="row">7</th>
+                <td>Harry Potter y las reliquias de la Muerte: Parte 1</td>
+                <td>2010</td>
+                <td>146</td>
+                </tr>
+                <tr>
+                <th scope="row">8</th>
+                <td>Harry Potter y las reliquias de la Muerte: Parte 2</td>
+                <td>2011</td>
+                <td>130</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                <th scope="row" colspan="3">Duración total de la saga</th>
+                <td>1179 min</td>
+                <td>4 directores</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <hr>
+
     <div>
         <h2>Lo que nos enseña la saga</h2>
 
@@ -228,7 +317,6 @@ Enemigo principal:    Lord Voldemort
 
     <hr>
 
-    <!-- Enlaces de interés -->
     <div>
         <h2>Más información</h2>
 
